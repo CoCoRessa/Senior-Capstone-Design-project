@@ -50,13 +50,13 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/83b2d5c3-8aae-4ef6-b296-b010252a011c" width="40%" height="40%" />
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/88ddbf80-3460-43a4-84ea-c0743eaeab1e" width="40%" height="40%" />
 
-# Labor Productivity
+# 4. Labor Productivity
 ## To measure enterprise performance, labor productivity is used
 - Labor productivity is an important metric that measures efficiency and performance in a company's operational activities by comparing output to input
 - Labor productivity in this study = (Real total annual sales) /(Total employees)
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/67e90b50-a715-4a99-9fcd-cfd1ff3511da" width="70%" height="70%" />
 
-# Analysis Methodology - Machine Learning
+# 5. Analysis Methodology - Machine Learning
 ## Machine learning is a field of AI that applies mathematical techniques to analyze patterns in data, minimizing prediction errors of algorithms, and providing reliable predictions
 - Machine learning is divided into supervised, unsupervised, and reinforcement learning. In this study, we employ supervised learning, which predicts Y (dependent feature) from X (independent feature)
 - Machine learning methodologies offer higher explanatory power compared to traditional regression models. They have the advantage of analyzing complex interactions between features exhibiting non-linearity
@@ -69,9 +69,6 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 - The optimal algorithm can vary depending on the data and circumstances
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/e3439c72-606a-4e1f-a2eb-dbe44e8048b9" width="70%" height="70%" />
 
-## Step 1: Determining the most suitable model for the dataset
-<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/aa7183e2-8a6d-4ca8-a917-d99a79dcef0a" width="70%" height="70%" />
-
 ## Utilizing feature selection techniques to identify the optimal feature combinations
 ### The techniques used in step 2: Feature Selection 
 - Feature Selection is a method of identifying subsets of data from the original dataset that exhibit the best performance to enhance the accuracy of the model
@@ -79,8 +76,37 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 - ▶ Use feature selection techniques to find the optimal combination of features
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/e2732dc0-d60d-4b04-956b-b54e75100b82" width="70%" height="70%" />
 
+## Utilizing Explainable Artificial Intelligence(XAI) to determine the individual contribution of each explanatory feature to the model's predictions
+### Algorithm used in step 3: Explainable Artificial Intelligence(XAI)
+- Machine learning methodologies offer higher interpretability compared to traditional regression models, yet models trained with algorithms are often regarded as black boxes, making it challenging to discern how much each explanatory features contributes to the model's predictions
+- ▶ With the advancement of XAI, the interpretation of black-box models has become possible. Consequently, it has begun to be utilized in urban and transportation planning domains
+### SHAP Value
+- One of the XAI methodologies, based on Shapley Values, calculates the importance of each feature in a model's prediction by determining how much each feature contributes to that prediction (contribution calculation)
+- When a specific feature is included or excluded in the model, the difference in predicted values is used to calculate the contribution of the feature
+- SHAP Values should not be interpreted as causal relationships
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/36637d79-a640-40d7-adb0-b9d62235812d" width="90%" height="90%" />
+
+## Through the SHAP value plot, the influence of each explanatory features on dependent features can be understood
+### SHAP Value plot example
+- The SHAP Value Bar Plot is a bar graph that represents the absolute SHAP values for each feature
+- The SHAP Value Summary Plot represents the impact of features by displaying all data points as dots, representing the direction and magnitude of the features' influence
+- The sign of SHAP Value indicates how a particular feature influences the predicted value
+- ▶ When it's positive, it means the feature tends to increase the model's predicted value, and when it's negative, the feature tends to decrease the model's predicted value
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/c5a74eeb-7d08-49f6-8332-092c903b4af3" width="40%" height="40%" />
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/840a62a8-f031-4cce-8e67-8391c3d42147" width="40%" height="40%" />
+
+# Research Flow Chart
+## Step 1: Determining the most suitable model for the dataset
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/aa7183e2-8a6d-4ca8-a917-d99a79dcef0a" width="70%" height="70%" />
+
 ## Step 2: Finding the best combination of explanatory that best describe labor productivity (dependent features) - Feature selection
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/3185d0fd-a264-4a23-9050-2db2a25ba970" width="90%" height="90%" />
+
+## Step 3: Analyzing the factors influencing labor productivity based on the final model and the final combination of explanatory features
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/7105866d-44a6-47ec-81f8-172e0f40e42e" width="70%" height="70%" />
+- Using an Alluvial plot, the comparison and interpretation of the factors influencing corporate labor productivity between 2013 and 2022 can be facilitated by categorizing entities and visualizing their temporal trends and compositional ratios
+
+
 
 
 
