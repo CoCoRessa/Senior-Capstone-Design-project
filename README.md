@@ -72,6 +72,13 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 ## Step 1: Determining the most suitable model for the dataset
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/aa7183e2-8a6d-4ca8-a917-d99a79dcef0a" width="70%" height="70%" />
 
+## Utilizing feature selection techniques to identify the optimal feature combinations
+### The techniques used in step 2: Feature Selection 
+- Feature Selection is a method of identifying subsets of data from the original dataset that exhibit the best performance to enhance the accuracy of the model
+- Each year, the survey questions exceed 300, making it difficult for the user to consider all combinations of features
+- ▶ Use feature selection techniques to find the optimal combination of features
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/e2732dc0-d60d-4b04-956b-b54e75100b82" width="70%" height="70%" />
+
 ## Step 2: Finding the best combination of explanatory that best describe labor productivity (dependent features) - Feature selection
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/3185d0fd-a264-4a23-9050-2db2a25ba970" width="90%" height="90%" />
 
