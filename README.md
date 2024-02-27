@@ -95,7 +95,7 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/c5a74eeb-7d08-49f6-8332-092c903b4af3" width="40%" height="40%" />
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/840a62a8-f031-4cce-8e67-8391c3d42147" width="40%" height="40%" />
 
-# Research Flow Chart
+# 6. Research Flow Chart
 ## Step 1: Determining the most suitable model for the dataset
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/aa7183e2-8a6d-4ca8-a917-d99a79dcef0a" width="70%" height="70%" />
 
@@ -106,8 +106,83 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/7105866d-44a6-47ec-81f8-172e0f40e42e" width="70%" height="70%" /> <br>
 - Using an Alluvial plot, the comparison and interpretation of the factors influencing corporate labor productivity between 2013 and 2022 can be facilitated by categorizing entities and visualizing their temporal trends and compositional ratios
 
-# Research Result
+# 7. Research Result
 ## Step 1 result: XGBoost, which exhibited the most outstanding performance across all years, has been chosen as the final analytical model
+### - Training the machine learning model
+- Each year, survey questions with more than 70% null values were removed, and the dataset was split into training data, which constitutes 80% of the full dataset, and test data, which represents 20%
+- The evaluation results of the XGBoost, LightGBM, and CatBoost models are presented in Table 1, showing that XGBoost appears to be the most suitable for predicting annual labor productivity
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/3368742b-2c22-46cb-8778-683ab1907d72" width="90%" height="90%" /> <br>
+
+### - XGBoost Hyper Parameter
+1. learning_rate: Tuning parameter in an optimization algorithm that determines the step size at each iteration while moving toward a minimum of a loss function
+2. max_depth: The maximum depth of a decision tree
+3. min_child_weight: The total sum of weights needed to decide whether to add branches in a decision tree
+4. colsample_bytree & subsample: A parameter to prevent overfitting by controlling the excessive complexity of the trees being generated
+5. reg_alpha & reg_lambda: Regularization parameter to prevent overfitting
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/8199bd12-574a-4df8-958d-4f7cdbca9370" width="90%" height="90%" />
+
+## Step 2 result: Using a total of 12 different feature selection approaches, the final set of explanatory features was determined to be 28 for 2013 and 30 for 2022
+### - Feature Selection result
+- Feature selection was performed using the SHAP Value method, which determines the contribution of each feature
+- The Backward Elimination technique was employed, where at each step, the number of features to remove was set to 1, 3, 5, 10, 1%, 3%, 5%, and 10% of the total number of features, resulting in a total of 8 cases
+- Using the Forward Selection technique, the number of features to add at each step was set to 1, 3, 5, and 10, resulting in a total of 4 cases
+- After obtaining the optimal feature combinations at the moments with the lowest RMSE in each of the total 12 cases, select the features that commonly exist in the majority of cases as the final choice
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/2720794a-cdcd-45e9-8e93-93529dbe0182" width="90%" height="90%" />
+
+## Step 3 result: Influencing factors on firm’s Labor productivity 
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/e228f628-d99d-44c4-9c19-a7b856340afc" width="90%" height="90%" /> <br>
+- The left side of the figure shows the key variables influencing on labor productivity in 2013, and the right side shows the key variables influencing on labor productivity in 2022
+- The line thickness is proportional to the impact of the variable on labor productivity
+- 2013, 2022 influencing factors are sorted in order of importance score
+
+### - Impact of infrastructure, regional investments on labor productivity declines in 2022
+- In 2022, due to well-developed infrastructure and sufficient regional investments compared to 2013, the influence on labor productivity has decreased
+- 【Infrastructure】: In both 2013 and 2022, labor productivity increases with better electricity infrastructure in the region, and in 2022, labor productivity increases with better access to port facilities
+- 【Regional investment】: In both 2013 and 2022, we find that higher investment in education and skills improves the overall quality of labor in a region, making it easier for firms to find skilled workers and increasing labor productivity
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/049160ed-57e4-45cb-8b26-b6d7a4fd7957" width="90%" height="90%" />
+
+### - Operating costs, labor, human capital, and firm information remain crucial in both 2013 and 2022
+- Capital and labor are traditionally the key factors in determining labor productivity, and entrepreneurship and the history of a firm are key factors in the operation of a traditional business
+- 【Operating cost】: In both 2013 and 2022, labor productivity tends to increase with greater firm operating costs
+- 【Labor & Human capital】: Quality of labor determines labor productivity in both 2013 and 2022
+- 【Firm Information】: In both 2013 and 2022, older firms are estimated to have increased labor productivity due to accumulated know-how
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/c36ca2bf-f324-47f9-bf53-77b1eca890e2" width="90%" height="90%" />
+
+### - Increasing importance of finance and urbanization to labor productivity in 2022
+- Estimated to have increased financial importance as economic growth boosts market activity and investment. In addition, urbanization has made cities better places to do business due to expanding infrastructure and labor markets
+- 【Finance】: By 2022, labor productivity is estimated to be higher when firms have diverse or flexible sources of financing
+- 【Urbanization】: In 2022, the relationship between Night Time Light (NTL), which is a proxy for urbanization, and labor productivity was checked, and it was estimated that the more urbanized the country, the higher the labor productivity due to a better labor supply and a better business environment with good infrastructure and services
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/6d11ab13-e4e1-4da3-97e7-45b2e235e2bc" width="90%" height="90%" />
+
+# 7. Conclusion & Limitations
+## Conclusion
+- Using XAI, 28 key features were reliably selected in 2013, and 30 in 2022, out of a pool of 300 explanatory variables, to identify the core factors influencing labor productivity in enterprises
+- Incorporating the changes from the past, it is confirmed that in 2022, finance and urbanization have newly influenced labor productivity
+## Main Takeaway
+- From the Enterprises's perspective, Due to variations in labor productivity influencing factors across industries and over time from the perspective of businesses, it is necessary to develop differentiated strategies through regular research and analysis. Additionally, funding sources should be diversified and managed flexibly, while operational costs of companies need to be rigorously controlled
+- From the government's perspective, policies aimed at enhancing labor productivity should focus on improving the qualitative level of workers, along with continuous investments in electrical and port infrastructure, as well as urban development
+## Limitations
+- While annual enterprise data is representative, it is not panel data, thus posing limitations on precise comparisons
+- In the 2022 model, due to the absence of Economic Census data, external environmental variables for companies could not be included
+- In Step 2, the Feature Selection stage, we were unable to proceed with considering more cases than the 12 scenarios initially planned
+- Analysis considering the varying characteristics of industries and the ripple effects of associated industries based on spatial factors may be insufficiently addressed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
