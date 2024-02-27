@@ -39,6 +39,5 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 - When there is a small number of data for a specific industry, there may be representativeness, but there is a possibility of a large margin of error in estimating the population
 - From 2013 to 2022, the proportion of the Services industry increased, with higher proportions observed in the Hotel and Restaurant industry as well as the Retail industry
 - In the manufacturing sector, the survey proportions for Garments, Textiles, and Food industries were high in 2013, and 2022
-<img src="https://github.com/CoCoRessa/Senior-Capstone-Design-project/assets/154608668/c2f2c080-03af-4f93-a797-f953539d4de0" width="650" height="400" />
-![산업1](https://github.com/CoCoRessa/Senior-Capstone-Design-project/assets/154608668/c2f2c080-03af-4f93-a797-f953539d4de0){: width="50%" height="50%"}
+<img src="https://github.com/CoCoRessa/Senior-Capstone-Design-project/assets/154608668/c2f2c080-03af-4f93-a797-f953539d4de0" width="50%" height="50%" />
 ![산업2](https://github.com/CoCoRessa/Senior-Capstone-Design-project/assets/154608668/bb78ef6e-e096-4e02-8d99-d0fb2ec0a821){: width="50%" height="50%"}
