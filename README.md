@@ -7,7 +7,7 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 
 # 1. Utilized Data
 ## To analyze the internal environment of an enterprise, Enterprise Survey are utilized
-### The reasons for using the Bangladesh Enterprise Survey
+### - The reasons for using the Bangladesh Enterprise Survey
 - Despite the lack of recent data in Bangladesh, it provides the most current data (2022) on the business environment
 - The Enterprise Survey consists of over 300 specific survey items, allowing for a realistic assessment of the situation in Bangladesh
 ### Bangladesh Enterprise Survey Overview
@@ -16,22 +16,22 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 - Exists as sampling data not a complete review on every
 
 ## To analyze the external environment, such as the characteristics of the region where a enterprise is located, Boost Data and Economic Census are utilized
-### Boost Data Overview
+### - Boost Data Overview
 - Data depicting the status of budget and financial transactions in Bangladesh, categorized by executing departments, administrative regions, economic impacts, and thematic sectors
-### Economic Census Overview
+### - Economic Census Overview
 - A survey conducted nationwide targeting economic entities (establishments and households) to understand the industrial structure and distribution in Bangladesh
 
 # 2. Sampling Methodology
 ## The total sample size was determined based on Bangladesh's Gross National Income (GNI)
-### Determine the total sample size based on the 2016 Bangladesh GNI
+### - Determine the total sample size based on the 2016 Bangladesh GNI
 - In 2016, the GNI was $435 billion, resulting in a sample size of 1,000
 - Using the Business Directory 2019 as a sampling frame, 1,000 samples were drawn from a list of 18,102 entries
 - The Business Directory 2019 serves as the sampling frame produced by the Bangladesh Bureau of Statistics
-### Based on stratified random sampling, it was divided into three strata
+### - Based on stratified random sampling, it was divided into three strata
 1. Industry: 7 categories: Garments, Textiles, Food, Other manufacturing, Retail, Hotels, Other Services
 2. Region: 7 categories: Dhaka MA, Greater Dhaka, Chattogram, Cox’s Bazar, Rajshahi, Khulna, Sylhet, Barisal
 3. Size: 3 categories: Small, Medium, Large
-### The sample sizes for each stratum were determined using the size of the sample frame, aiming for a confidence interval of 90% and precision between 5% to 7.5%
+### - The sample sizes for each stratum were determined using the size of the sample frame, aiming for a confidence interval of 90% and precision between 5% to 7.5%
 ▶ It can be said to have representativeness for each stratum
 
 # 3-1. The analyzable scope of the data 1) Industry
@@ -64,30 +64,30 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/d159614c-0231-4b3f-8bc4-2d761c857c11" width="70%" height="70%" />
 
 ## Based on Gradient Boosting and automatically handling missing values, the study employed XGBoost, LightGBM, and CatBoost, known for their excellent explanatory power
-### Algorithm used in step 1: XGBoost & LightGBM & CatBoost
+### - Algorithm used in step 1: XGBoost & LightGBM & CatBoost
 - Gradient Boosting is a technique that minimizes residuals by iteratively creating new Decision Trees based on the residuals left after training the data with Decision Trees
 - The optimal algorithm can vary depending on the data and circumstances
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/e3439c72-606a-4e1f-a2eb-dbe44e8048b9" width="70%" height="70%" />
 
 ## Utilizing feature selection techniques to identify the optimal feature combinations
-### The techniques used in step 2: Feature Selection 
+### - The techniques used in step 2: Feature Selection 
 - Feature Selection is a method of identifying subsets of data from the original dataset that exhibit the best performance to enhance the accuracy of the model
 - Each year, the survey questions exceed 300, making it difficult for the user to consider all combinations of features
 - ▶ Use feature selection techniques to find the optimal combination of features
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/e2732dc0-d60d-4b04-956b-b54e75100b82" width="50%" height="50%" />
 
 ## Utilizing Explainable Artificial Intelligence(XAI) to determine the individual contribution of each explanatory feature to the model's predictions
-### Algorithm used in step 3: Explainable Artificial Intelligence(XAI)
+### - Algorithm used in step 3: Explainable Artificial Intelligence(XAI)
 - Machine learning methodologies offer higher interpretability compared to traditional regression models, yet models trained with algorithms are often regarded as black boxes, making it challenging to discern how much each explanatory features contributes to the model's predictions
 - ▶ With the advancement of XAI, the interpretation of black-box models has become possible. Consequently, it has begun to be utilized in urban and transportation planning domains
-### SHAP Value
+### - SHAP Value
 - One of the XAI methodologies, based on Shapley Values, calculates the importance of each feature in a model's prediction by determining how much each feature contributes to that prediction (contribution calculation)
 - When a specific feature is included or excluded in the model, the difference in predicted values is used to calculate the contribution of the feature
 - SHAP Values should not be interpreted as causal relationships
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/36637d79-a640-40d7-adb0-b9d62235812d" width="90%" height="90%" />
 
 ## Through the SHAP value plot, the influence of each explanatory features on dependent features can be understood
-### SHAP Value plot example
+### - SHAP Value plot example
 - The SHAP Value Bar Plot is a bar graph that represents the absolute SHAP values for each feature
 - The SHAP Value Summary Plot represents the impact of features by displaying all data points as dots, representing the direction and magnitude of the features' influence
 - The sign of SHAP Value indicates how a particular feature influences the predicted value
