@@ -34,11 +34,22 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 ### The sample sizes for each stratum were determined using the size of the sample frame, aiming for a confidence interval of 90% and precision between 5% to 7.5%
 ▶ It can be said to have representativeness for each stratum
 
-# The analyzable scope of the data 1) Industry
+# 3-1. The analyzable scope of the data 1) Industry
 ## Five industries(Garments, Textiles, Food, Hotel and Restaurants, Retail) surveyed in all two years with sufficient data counts were chosen as the subjects for analysis
 - When there is a small number of data for a specific industry, there may be representativeness, but there is a possibility of a large margin of error in estimating the population
 - From 2013 to 2022, the proportion of the Services industry increased, with higher proportions observed in the Hotel and Restaurant industry as well as the Retail industry
 - In the manufacturing sector, the survey proportions for Garments, Textiles, and Food industries were high in 2013, and 2022
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/eb280168-c95c-4f38-ac25-08938e51958f" width="40%" height="40%" />
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/1425a017-f201-41b4-9ee5-e4fbb4c16518" width="40%" height="40%" />
+
+# 3-2. The analyzable scope of the data 2) Spatial
+## The survey area expanded to reflect urbanization, setting the urban areas as the spatial scope of the study, enabling analysis and conclusions regarding enterprises
+- As the surveyed enterprises are not distributed evenly across all regions, it's essential to examine the characteristics of the areas where these enterprises are located
+- The comparison of surveyed locations between 2013 and 2022 shows a gradual expansion of the surveyed areas
+- Comparing the distribution of Night Time Light (NTL), a proxy for urbanization, to the distribution of surveyed areas, we found a similar distribution
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/83b2d5c3-8aae-4ef6-b296-b010252a011c" width="40%" height="40%" />
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/88ddbf80-3460-43a4-84ea-c0743eaeab1e" width="40%" height="40%" />
+
+
+
 
