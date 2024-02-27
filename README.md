@@ -1,4 +1,3 @@
-# Feature-Selection
 Title: An Analysis of Influencing Factors on Firm’s Labor Productivity in Bangladesh using Explainable Artificial Intelligence(XAI)
 ======================
 Senior Capstone Design Project
@@ -32,25 +31,13 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 1. Industry: 7 categories: Garments, Textiles, Food, Other manufacturing, Retail, Hotels, Other Services
 2. Region: 7 categories: Dhaka MA, Greater Dhaka, Chattogram, Cox’s Bazar, Rajshahi, Khulna, Sylhet, Barisal
 3. Size: 3 categories: Small, Medium, Large
-### The sample sizes for each stratum were determined using the size of the      sample frame, aiming for a confidence interval of 90% and precision between 5% to 7.5%
+### The sample sizes for each stratum were determined using the size of the sample frame, aiming for a confidence interval of 90% and precision between 5% to 7.5%
+▶ It can be said to have representativeness for each stratum
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# The analyzable scope of the data 1) Industry
+## Five industries(Garments, Textiles, Food, Hotel and Restaurants, Retail) surveyed in all two years with sufficient data counts were chosen as the subjects for analysis
+- When there is a small number of data for a specific industry, there may be representativeness, but there is a possibility of a large margin of error in estimating the population
+- From 2013 to 2022, the proportion of the Services industry increased, with higher proportions observed in the Hotel and Restaurant industry as well as the Retail industry
+- In the manufacturing sector, the survey proportions for Garments, Textiles, and Food industries were high in 2013, and 2022
+![산업1](https://github.com/CoCoRessa/Senior-Capstone-Design-project/assets/154608668/c2f2c080-03af-4f93-a797-f953539d4de0)
+![산업2](https://github.com/CoCoRessa/Senior-Capstone-Design-project/assets/154608668/bb78ef6e-e096-4e02-8d99-d0fb2ec0a821)
