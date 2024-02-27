@@ -41,3 +41,4 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 - In the manufacturing sector, the survey proportions for Garments, Textiles, and Food industries were high in 2013, and 2022
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/eb280168-c95c-4f38-ac25-08938e51958f" width="40%" height="40%" />
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/95c7d867-1a7f-469b-80b5-7aac54772727" width="40%" height="40%" />
+
