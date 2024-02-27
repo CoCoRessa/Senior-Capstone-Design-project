@@ -74,7 +74,7 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 - Feature Selection is a method of identifying subsets of data from the original dataset that exhibit the best performance to enhance the accuracy of the model
 - Each year, the survey questions exceed 300, making it difficult for the user to consider all combinations of features
 - ▶ Use feature selection techniques to find the optimal combination of features
-<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/e2732dc0-d60d-4b04-956b-b54e75100b82" width="70%" height="70%" />
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/e2732dc0-d60d-4b04-956b-b54e75100b82" width="50%" height="50%" />
 
 ## Utilizing Explainable Artificial Intelligence(XAI) to determine the individual contribution of each explanatory feature to the model's predictions
 ### Algorithm used in step 3: Explainable Artificial Intelligence(XAI)
@@ -103,9 +103,11 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/3185d0fd-a264-4a23-9050-2db2a25ba970" width="90%" height="90%" />
 
 ## Step 3: Analyzing the factors influencing labor productivity based on the final model and the final combination of explanatory features
-<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/7105866d-44a6-47ec-81f8-172e0f40e42e" width="70%" height="70%" />
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/7105866d-44a6-47ec-81f8-172e0f40e42e" width="70%" height="70%" /> <br>
 - Using an Alluvial plot, the comparison and interpretation of the factors influencing corporate labor productivity between 2013 and 2022 can be facilitated by categorizing entities and visualizing their temporal trends and compositional ratios
 
+# Research Result
+## Step 1 result: XGBoost, which exhibited the most outstanding performance across all years, has been chosen as the final analytical model
 
 
 
