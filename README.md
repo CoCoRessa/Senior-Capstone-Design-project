@@ -10,7 +10,7 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 ### - The reasons for using the Bangladesh Enterprise Survey
 - Despite the lack of recent data in Bangladesh, it provides the most current data (2022) on the business environment
 - The Enterprise Survey consists of over 300 specific survey items, allowing for a realistic assessment of the situation in Bangladesh
-### Bangladesh Enterprise Survey Overview
+### - Bangladesh Enterprise Survey Overview
 - The survey conducted by WBES (World Bank Enterprise Surveys) targeted companies in the manufacturing and service sectors
 - The purpose is to assess general company characteristics, infrastructure, sales and supply, competition, innovation, land and permits, finance, firm-government relations, exposure to bribery, labor, and performance
 - Exists as sampling data not a complete review on every
