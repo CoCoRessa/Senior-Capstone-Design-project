@@ -1,4 +1,4 @@
-Title: An Analysis of Influencing Factors on Firm’s Labor Productivity in Bangladesh using Explainable Artificial Intelligence(XAI)
+![image](https://github.com/CoCoRessa/Senior-Capstone-Design-project/assets/154608668/16f8be5c-1ab5-4edb-8e65-5fac17ee8381)Title: An Analysis of Influencing Factors on Firm’s Labor Productivity in Bangladesh using Explainable Artificial Intelligence(XAI)
 ======================
 Senior Capstone Design Project
 
@@ -49,6 +49,21 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 - Comparing the distribution of Night Time Light (NTL), a proxy for urbanization, to the distribution of surveyed areas, we found a similar distribution
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/83b2d5c3-8aae-4ef6-b296-b010252a011c" width="40%" height="40%" />
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/88ddbf80-3460-43a4-84ea-c0743eaeab1e" width="40%" height="40%" />
+
+# Labor Productivity
+## To measure enterprise performance, labor productivity is used
+- Labor productivity is an important metric that measures efficiency and performance in a company's operational activities by comparing output to input
+- Labor productivity in this study = (Real total annual sales) /(Total employees)
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/67e90b50-a715-4a99-9fcd-cfd1ff3511da" width="40%" height="40%" />
+
+# Analysis Methodology - Machine Learning
+## Machine learning is a field of AI that applies mathematical techniques to analyze patterns in data, minimizing prediction errors of algorithms, and providing reliable predictions
+- Machine learning is divided into supervised, unsupervised, and reinforcement learning. In this study, we employ supervised learning, which predicts Y (dependent feature) from X (independent feature)
+- Machine learning methodologies offer higher explanatory power compared to traditional regression models. They have the advantage of analyzing complex interactions between features exhibiting non-linearity
+- In this study, the dependent feature is the labor productivity of companies, and the independent features are the survey items from the Enterprise Survey
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/d159614c-0231-4b3f-8bc4-2d761c857c11" width="40%" height="40%" />
+
+
 
 
 
