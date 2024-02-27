@@ -68,6 +68,7 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 - Gradient Boosting is a technique that minimizes residuals by iteratively creating new Decision Trees based on the residuals left after training the data with Decision Trees
 - The optimal algorithm can vary depending on the data and circumstances
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/e3439c72-606a-4e1f-a2eb-dbe44e8048b9" width="70%" height="70%" />
+
 ## Step 1: Determining the most suitable model for the dataset
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/aa7183e2-8a6d-4ca8-a917-d99a79dcef0a" width="70%" height="70%" />
 ## Step 2: Finding the best combination of explanatory that best describe labor productivity (dependent features) - Feature selection
