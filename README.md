@@ -73,7 +73,7 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 <img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/aa7183e2-8a6d-4ca8-a917-d99a79dcef0a" width="70%" height="70%" />
 
 ## Step 2: Finding the best combination of explanatory that best describe labor productivity (dependent features) - Feature selection
-<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/cda61391-2168-4340-be6c-89db97dad1d7" width="90%" height="90%" />
+<img src="https://github.com/CoCoRessa/CoCoRessa/assets/154608668/3185d0fd-a264-4a23-9050-2db2a25ba970" width="90%" height="90%" />
 
 
 
