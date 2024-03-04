@@ -165,7 +165,7 @@ Bangladesh was once one of the Asian Least Developed Countries, but since the 20
 - While annual enterprise data is representative, it is not panel data, thus posing limitations on precise comparisons
 - In the 2022 model, due to the absence of Economic Census data, external environmental variables for companies could not be included
 - In Step 2, the Feature Selection stage, we were unable to proceed with considering more cases than the 12 scenarios initially planned
-- Analysis considering the varying characteristics of industries and the ripple effects of associated industries based on spatial factors may be insufficiently addressed.
+- Analysis considering the varying characteristics of industries and the ripple effects of associated industries based on spatial factors may be insufficiently addressed
 
 
 
